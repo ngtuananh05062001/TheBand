@@ -1,0 +1,104 @@
+@media (min-width: 1024px){
+    
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-w-full{
+        width: 100%;
+    }
+
+    #footer .icon-footer{
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 740px){
+    #header{
+        /* height: auto; */
+        overflow: hidden;
+    }
+    #nav li {
+        display: block;
+        /* width: 100%; */
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    .subnav li a{
+        color: #fff;
+    }
+    
+    .subnav > li > a{
+        padding: 0 32px;
+        
+    }
+
+    #nav li a{
+        width: 100%;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #icon{
+        display: none;
+    }
+
+    #btn-icon-menu{
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #contents .member-img{
+        /* height: ; */
+        width: 200px;
+    }
+
+    #contents .mobile-about{
+        display: block;
+    }
+
+    #contents .list-member-item{
+        width: 100%;
+    }
+
+    #contents .mobile-section{
+        display: block;
+    }
+
+    #contents .mobile-iteam-section{
+        width: 100%;
+    }
+
+    .contact-content{
+        display: block;
+    }
+
+    .mobile-input-contact{
+        display: block;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-w-full{
+        width: 100%;
+    }
+
+    /* .row{
+        display: block;
+    }
+    .col-third{
+        width: 100%;
+    } */
+} 
